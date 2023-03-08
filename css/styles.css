@@ -1,0 +1,147 @@
+body{
+    font-family: "Merriweather";
+}
+
+#title {
+    background-color: #BFEAF5;
+    background-size: 15%;
+    color: #D57E7E;
+}
+
+.container-fluid{
+    padding: 3% 5%;
+
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family:"Roboto";
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* navigation bar */
+
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-family: "Montserrat-dark";
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.0rem;
+}
+
+
+/* login  buttons */
+.login-button{
+    margin: 3% 1% 3% 0;
+}
+
+
+/* title img */
+.title-image{
+    width: 100%;
+}
+
+
+/* features seaction */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* testimonial seaction */
+#testimonials{
+    
+    text-align: center;
+    background-color: #BFEAF5;
+    color: #D57E7E;
+    font-family: "Satisfy";
+}
+.testimonial-image{
+    height: 300px;
+    width: 200px;
+    margin: 20px;;
+    border-radius: 10%;
+}
+.carousel-item{
+    padding: 7% 35%;
+}
+.carousel-control-prev{
+    background-color: #BFEAF5;
+    border: 0;
+}
+.carousel-control-next{
+    background-color: #BFEAF5;
+    border: 0;
+}
+
+
+/*pricing section*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2% ;
+} 
+
+
+
+/* CTA section */
+#cta{
+    background-color: #BFEAF5;
+    color: #D57E7E;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+/* Footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+a {
+    color: #913175;
+  }
+  
+  a.hover{
+    color: white;
+  }
+
+
+
+@media (max-width: 1020px){
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;    
+    }
+}
